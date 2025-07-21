@@ -1,6 +1,8 @@
-# ⚛️ React UI Kit Lab (Phase 1)
+# ⚛️ React UI Kit Lab (Phase 1 + Phase 2)
 
-A lightweight, modular React project that includes essential UI components like **Dropdown**, **Accordion**, and **Button**, styled using **TailwindCSS**. This is Phase 1 of a multi-phase component system aimed at building reusable elements for any frontend project.
+A lightweight, modular React project that includes essential UI components like **Dropdown**, **Accordion**, and **Button**, styled using **TailwindCSS**. Now extended with **custom navigation**, **modal support**, and **React Portals** to improve how modals are displayed.
+
+This is a multi-phase component system aimed at building reusable elements for real-world frontend applications.
 
 ---
 
@@ -22,6 +24,22 @@ A lightweight, modular React project that includes essential UI components like 
 - Icon support using `react-icons`.
 - Clean styling with Tailwind.
 
+### ✅ Modal (NEW in Phase 2)
+
+- Reusable popup window that appears in the center of the screen.
+- Can be opened and closed from anywhere in the app.
+
+### ✅ React Portal (NEW in Phase 2)
+
+- Used to display modals in a better place in the DOM.
+- Helps keep modals on top and separate from the main layout.
+
+### ✅ Custom Navigation (NEW in Phase 2)
+
+- Simple page switching without using `react-router-dom`.
+- Built using custom `Link` and `Route` components.
+- Matches the URL path to show the correct page.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -37,61 +55,3 @@ A lightweight, modular React project that includes essential UI components like 
 | `classnames`  | Conditionally apply Tailwind classes |
 | `react-icons` | Scalable, customizable icons         |
 | `prop-types`  | Runtime props validation             |
-
----
-
-## 🧱 Folder Structure
-
-```bash
-react-ui-kit-lab/
-├── public/             # Static assets
-├── src/
-│   ├── components/     # UI components (Dropdown, Accordion, Button)
-│   ├── App.js          # Root component
-│   ├── index.js        # Entry point
-│   └── main.jsx        # Vite main file
-├── tailwind.config.js  # Tailwind config
-├── postcss.config.js   # PostCSS config
-├── package.json
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/your-username/react-ui-kit-lab.git
-cd react-ui-kit-lab
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Run the App
-
-```bash
-npm run dev
-```
-
----
-
-## 🗂️ Roadmap
-
-### Phase 1 ✅
-
-- [x] Dropdown
-- [x] Accordion
-- [x] Button
-
-### Phase 2 🚧 _(Coming Soon)_
-
-- [ ] Modal
-- [ ] Enhanced Navigation (without React Router)
-- [ ] Advanced Table with Sorting
-- [ ] Portal Feature
