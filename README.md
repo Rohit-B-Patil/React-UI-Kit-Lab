@@ -1,8 +1,8 @@
 # ⚛️ React UI Kit Lab (Phase 1 + Phase 2)
 
-A lightweight, modular React project that includes essential UI components like **Dropdown**, **Accordion**, and **Button**, styled using **TailwindCSS**. Now extended with **custom navigation**, **modal support**, and **React Portals** to improve how modals are displayed.
+A lightweight, modular React project that includes essential UI components like **Dropdown**, **Accordion**, **Button**, and now a **fully sortable Table**, all styled using **TailwindCSS**. This UI kit is built to be reusable and extendable for real-world frontend projects.
 
-This is a multi-phase component system aimed at building reusable elements for real-world frontend applications.
+Phase 2 introduces more advanced patterns like **custom navigation**, **modals with React Portals**, and a sortable **Table** with clean UX.
 
 ---
 
@@ -36,9 +36,16 @@ This is a multi-phase component system aimed at building reusable elements for r
 
 ### ✅ Custom Navigation (NEW in Phase 2)
 
-- Simple page switching without using `react-router-dom`.
+- Simple page switching without `react-router-dom`.
 - Built using custom `Link` and `Route` components.
 - Matches the URL path to show the correct page.
+
+### ✅ Sortable Table (NEW in Phase 2)
+
+- Displays tabular data with dynamic headers.
+- Sorts columns in ascending/descending order or resets.
+- Custom sorting logic using `sortValue` per column.
+- Visual sort indicators with up/down arrows (`react-icons`).
 
 ---
 
@@ -48,7 +55,9 @@ This is a multi-phase component system aimed at building reusable elements for r
 - **TailwindCSS**
 - **JavaScript (ES6)**
 
-### 📦 Libraries Used
+---
+
+## 📦 Libraries Used
 
 | Package       | Purpose                              |
 | ------------- | ------------------------------------ |
