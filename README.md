@@ -1,4 +1,4 @@
-# ⚛️ React UI Kit Lab (Phase 1 + Phase 2)
+# ⚛️ React UI Kit Lab (Phase 1 + Phase 2 + Phase 3)
 
 A lightweight, modular React project that includes essential UI components like **Dropdown**, **Accordion**, **Button**, and a fully **sortable Table**, all styled using **TailwindCSS**. This UI kit is designed to be reusable and extendable for real-world frontend projects.
 
@@ -49,6 +49,21 @@ A lightweight, modular React project that includes essential UI components like 
 
 ---
 
+### 🧠 Phase 3
+
+#### ✅ Custom Hook for Sorting
+
+- Extracted reusable logic for table column sorting.
+- Improves separation of concerns and reusability.
+
+#### ✅ Sidebar Counter (State Management)
+
+- A new **sidebar counter** component.
+- Built using `useReducer` for predictable state transitions.
+- Enhanced with `immer.js` for immutable state handling with simpler syntax.
+
+---
+
 ## 🛠️ Tech Stack
 
 - **React** (Vite)
@@ -59,8 +74,9 @@ A lightweight, modular React project that includes essential UI components like 
 
 ## 📦 Libraries Used
 
-| Package       | Purpose                              |
-| ------------- | ------------------------------------ |
-| `classnames`  | Conditionally apply Tailwind classes |
-| `react-icons` | Scalable, customizable icons         |
-| `prop-types`  | Runtime props validation             |
+| Package       | Purpose                                   |
+| ------------- | ----------------------------------------- |
+| `classnames`  | Conditionally apply Tailwind classes      |
+| `react-icons` | Scalable, customizable icons              |
+| `prop-types`  | Runtime props validation                  |
+| `immer`       | Immutable state updates with `useReducer` |
